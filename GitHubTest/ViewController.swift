@@ -9,6 +9,8 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var firstLbl: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         setUIAndData()
@@ -20,9 +22,10 @@ class ViewController: UIViewController {
     
     /// Set UI and Data
     func setUIAndData() {
-        view.backgroundColor = UIColor.lightGray
+        firstLbl.text = "First Label Title"
+        firstLbl.backgroundColor = UIColor.clear
+        view.backgroundColor = UIColor.red
     }
-
 
 }
 
