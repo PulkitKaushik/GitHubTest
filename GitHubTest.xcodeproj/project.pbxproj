@@ -14,6 +14,7 @@
 		3D26A6CB21C25E09000CA664 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D26A6C921C25E09000CA664 /* LaunchScreen.storyboard */; };
 		3D26A6D621C25E09000CA664 /* GitHubTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D26A6D521C25E09000CA664 /* GitHubTestTests.swift */; };
 		3D26A6E121C25E09000CA664 /* GitHubTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D26A6E021C25E09000CA664 /* GitHubTestUITests.swift */; };
+		3D67CBAC21CB581C00BE24AC /* PersonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D67CBAB21CB581C00BE24AC /* PersonModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3D26A6DC21C25E09000CA664 /* GitHubTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitHubTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D26A6E021C25E09000CA664 /* GitHubTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubTestUITests.swift; sourceTree = "<group>"; };
 		3D26A6E221C25E09000CA664 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D67CBAB21CB581C00BE24AC /* PersonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				3D26A6C021C25E09000CA664 /* AppDelegate.swift */,
 				3D26A6C221C25E09000CA664 /* ViewController.swift */,
+				3D67CBAB21CB581C00BE24AC /* PersonModel.swift */,
 				3D26A6C421C25E09000CA664 /* Main.storyboard */,
 				3D26A6C721C25E09000CA664 /* Assets.xcassets */,
 				3D26A6C921C25E09000CA664 /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D67CBAC21CB581C00BE24AC /* PersonModel.swift in Sources */,
 				3D26A6C321C25E09000CA664 /* ViewController.swift in Sources */,
 				3D26A6C121C25E09000CA664 /* AppDelegate.swift in Sources */,
 			);

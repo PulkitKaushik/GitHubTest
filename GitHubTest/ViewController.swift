@@ -22,7 +22,7 @@ class ViewController: UIViewController {
     
     /// Set UI and Data
     func setUIAndData() {
-        firstLbl.text = "First Label"
+        firstLbl.text = "First Label Title"
         firstLbl.backgroundColor = UIColor.clear
         view.backgroundColor = UIColor.green
     }
