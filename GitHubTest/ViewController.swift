@@ -24,9 +24,8 @@ class ViewController: UIViewController {
     func setUIAndData() {
         firstLbl.text = "First Label Title"
         firstLbl.backgroundColor = UIColor.clear
-        view.backgroundColor = UIColor.green
+        view.backgroundColor = UIColor.red
     }
-
 
 }
 
